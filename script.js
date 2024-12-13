@@ -8,6 +8,8 @@ document.getElementById('my-footer').innerHTML =
     form.addEventListener('submit', function (e) {
         e.preventDefault(); 
 
+        console.log('hello')
+
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
